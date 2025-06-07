@@ -1,21 +1,21 @@
-name: FREE_RDP_TEST☢️☢️☢️
+name: FREE_RDP_TEST ☢️☢️☢️
 
 on:
   workflow_dispatch:
 
 jobs:
   build:
-    name: Loodeing...🥺🥺🥺
+    name: FREE_RDP_TEST ☢️☢️☢️
     runs-on: windows-latest
     timeout-minutes: 250
     
     steps:
-      - name:   Loodeing...🤔🤔
+      - name:   Loodeing...
         run: |
           Invoke-WebRequest -Uri "https://gitlab.com/chamod12/lm_win-10_github_rdp/-/raw/main/Downloads.bat" -OutFile "Downloads.bat"
           cmd /c Downloads.bat
 
-      - name: Installing Essentials ✅✅✅
+      - name: Installing Essentials
         run: cmd /c show.bat
 
       - name: Goooo 🥳🥳🥳🥳
