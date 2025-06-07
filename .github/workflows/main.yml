@@ -1,11 +1,11 @@
-name: FREE_RDP_TEST ☢️☢️☢️
+name: FREE_RDP_TEST 
 
 on:
   workflow_dispatch:
 
 jobs:
   build:
-    name: FREE_RDP_TEST ☢️☢️☢️
+    name: FREE_RDP_TEST
     runs-on: windows-latest
     timeout-minutes: 250
     
